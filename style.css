@@ -1,0 +1,159 @@
+@font-face {
+    src: url(../gotham_ssv/Gotham-Book.otf);
+    font-family: "gotham-book"
+}
+
+@font-face {
+    src: url(../gotham_ssv/Gotham-Light.otf);
+    font-family: "gotham-light"
+}
+
+@font-face {
+    src: url(../gotham_ssv/Gotham-Thin.otf);
+    font-family: "gotham-thin"
+}
+
+body {
+    padding-left: 10.7vw;
+    padding-right: 10.7vw;
+}
+
+
+h1 h2 p {
+    color: #464646;
+}
+
+header {
+    display:flex;
+    justify-content: space-between;
+    margin-bottom: 120px;
+    margin-top: 64px;
+}
+
+.separator {
+    width: 2px;
+    height: 104px;
+    background-color: #01A1AB;
+}
+
+
+.logo {
+    width:281px;
+    height:91px;
+    margin-top: 12px;
+
+}
+
+h1 {
+    font-family: "gotham-light";
+    width:468px;
+    height:95px;
+    font-size: 24px;
+    line-height: 125.6%;
+}
+
+#intro {
+    font-size: 24px;
+    font-family: "gotham-light";
+    white-space: pre-line;
+    width: 726px;
+    height: 60px;
+    line-height: 125.6%;
+    margin-bottom: 80px;
+    
+}
+
+h2 {
+    font-size: 32px;
+    font-family: "gotham-light";
+}
+
+p {
+    font-size: 24px;
+    font-family: "gotham-thin";
+    width: 468px;
+    height: 107px;
+    line-height: 125.6%;
+
+}
+
+.project-final-txt {
+    padding-top: -8px;
+}
+
+.final, .naturanimals, .learning-process {
+    display:flex;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    width: 1129px;
+    height: 255px;
+    margin-bottom: 120px;
+}
+
+.naturanimals {
+    justify-content: row-reverse;
+    margin-bottom: 240px;
+}
+
+.project-final-txt {
+    margin-top: -24px;
+}
+
+.project-naturanimals-txt {
+    margin-top: 48px;
+}
+
+.project-learning-process-txt{
+    margin-top:-24px;
+}
+
+.img-project-final {
+    width: 468px;
+    height: 255px;
+}
+
+.img-project-naturanimals {
+    width: 333px;
+    height: 391px;
+}
+
+.img-project-learning-process {
+    width: 466px;
+    height: 248px;
+}
+
+.button {
+    width: 466px;
+    height: 48px;
+
+}
+
+.button:hover {
+    opacity: 0.5;
+}
+
+
+
+
+@media only screen and (max-width: 414px) {
+
+.desktop-screen {
+    display:none;
+    }
+}
+
+@media only screen and (min-width: 415px) {
+
+    .desktop-screen {
+        display:block;
+    }
+
+    .mobile-screen {
+        display:none;
+        justify-content: center;
+        align-items: center;
+        color:white;
+        background-color: rgba(43, 148, 148, 0.863);
+    }
+}
